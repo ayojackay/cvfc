@@ -3,12 +3,11 @@
 @import url('https://fonts.googleapis.com/css?family=Anton|Yanone+Kaffeesatz');
 
 body {
-  background: rgb(30,87,153);
-  background: rgb(122,188,255);
-  background: -moz-linear-gradient(-45deg, rgba(122,188,255,1) 0%, rgba(96,171,248,1) 44%, rgba(64,150,238,1) 100%);
-  background: -webkit-linear-gradient(-45deg, rgba(122,188,255,1) 0%,rgba(96,171,248,1) 44%,rgba(64,150,238,1) 100%);
-  background: linear-gradient(135deg, rgba(122,188,255,1) 0%,rgba(96,171,248,1) 44%,rgba(64,150,238,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7abcff', endColorstr='#4096ee',GradientType=1 );
+  background: rgb(178,225,255);
+  background: -moz-linear-gradient(-45deg, rgba(178,225,255,1) 0%, rgba(102,182,252,1) 100%);
+  background: -webkit-linear-gradient(-45deg, rgba(178,225,255,1) 0%,rgba(102,182,252,1) 100%);
+  background: linear-gradient(135deg, rgba(178,225,255,1) 0%,rgba(102,182,252,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b2e1ff', endColorstr='#66b6fc',GradientType=1 );
 }
 
 h2, h3 {
@@ -26,12 +25,11 @@ p {
 
 /*Nav&Header*/
 nav {
-  background: rgb(30,87,153);
-  background: rgb(122,188,255);
-  background: -moz-linear-gradient(-45deg, rgba(122,188,255,1) 0%, rgba(96,171,248,1) 44%, rgba(64,150,238,1) 100%);
-  background: -webkit-linear-gradient(-45deg, rgba(122,188,255,1) 0%,rgba(96,171,248,1) 44%,rgba(64,150,238,1) 100%);
-  background: linear-gradient(135deg, rgba(122,188,255,1) 0%,rgba(96,171,248,1) 44%,rgba(64,150,238,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7abcff', endColorstr='#4096ee',GradientType=1 );
+  background: rgb(178,225,255);
+  background: -moz-linear-gradient(-45deg, rgba(178,225,255,1) 0%, rgba(102,182,252,1) 100%);
+  background: -webkit-linear-gradient(-45deg, rgba(178,225,255,1) 0%,rgba(102,182,252,1) 100%);
+  background: linear-gradient(135deg, rgba(178,225,255,1) 0%,rgba(102,182,252,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b2e1ff', endColorstr='#66b6fc',GradientType=1 );
   color: #6b71d9;
   text-decoration: none;
 }
@@ -45,6 +43,12 @@ nav>a:hover {
   background-color: #fff;
   color: #cc0000;
 }
+
+.navbar-default {
+  border: none;
+}
+
+
 .jumbotron {
   background-image: url('../images/fences.jpeg');
   background-size: cover;
@@ -52,7 +56,7 @@ nav>a:hover {
   height: 300px;
   padding: 70px;
   margin-top: -20px;
-  opacity: 0.75;
+  opacity: 0.80;
 }
 
 .jumbotron>h1 {
@@ -95,39 +99,34 @@ nav>a:hover {
   font-weight: lighter;
 }
 
-.loc, .locations, .loc>h3, .loc>p .est>h3{
+.loc, .locations, .loc>h4, .loc>p, .est>h4 {
   list-style: none;
   text-align: center;
 }
 
-.loc>h3, .est>h3 {
+.loc>h4, .est>h4 {
   font-size: 25px;
   font-weight: lighter;
   color: #CC0000;
   font-family: 'Anton', sans-serif;
-  margin-left: 30px;
-}
-
-.loc>h3 {
-  margin-left: 30px;
 }
 
 .loc>p {
   margin-left: 35px;
 }
 
-.ph, .cal{
+.ph, .cal {
   padding: 10px;
   color: #fff;
 }
 
 span {
   font-weight: bold;
-  letter-spacing: 1px;;
+  letter-spacing: 1px;
 }
 
 .h-items {
-  color: #f5cb0f;
+  color: #000;
   font-size: 20px;
   text-shadow: 2px 0px 5px rgba(53, 62, 32, 0.81);
   font-family: 'Lobster', cursive;
